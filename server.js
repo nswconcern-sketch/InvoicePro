@@ -1,5 +1,6 @@
 const express = require("express");
-const cors = require("cors");
+const app.use(cors({ origin: "https://invoice-prowebsite.vercel.app" }));
+
 const fs = require("fs");
 const path = require("path");
 const pool = require("./db/pool");
